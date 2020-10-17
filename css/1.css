@@ -1,0 +1,840 @@
+/*start Main*/
+body,html
+{
+	margin:0px;
+	padding:0px;
+	/*height:5000px;*/
+}
+.container
+{
+	width:1170px;
+	margin:auto
+}
+span
+{
+	cursor:context-menu;
+}
+/*End Main*/
+
+/*Star Navbar*/
+
+	/*start image*/
+
+.image
+{
+	overflow:hidden;
+	display:inline;
+	width:50%;
+}
+.navbar .image img
+{
+	margin-top:30px;
+	margin-bottom: -13px;
+	background-color:#ed5057;
+	width:50px;
+	height:50px;
+	min-height:30px;
+	border-radius: 50%;
+}
+.navbar .image h2
+{
+	text-transform:capitalize;
+	display:inline
+}
+	/*end image*/
+.navbar
+{
+	overflow:hidden;
+}
+.navbar .textnav
+{
+	float:right;
+	margin-right:-80px;
+	padding:15px 20px 15px 20px;
+}
+.navbar .textnav ul
+{
+    margin-top: -35px;
+    margin-right: -25px;
+    margin-bottom: -34px;
+}
+.navbar .textnav li {
+	text-transform:uppercase;
+    list-style: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-left: 1px solid #000;
+    line-height: 80px;
+    margin: 20px 0;
+	margin-left:-5px;
+}
+.navbar ul li:hover
+{
+	color:#FFF;
+	background-color:#e74a53;
+}
+.navbar .x
+{
+	border-right:1px solid #000;
+}
+/*End Navbar*/
+
+/*start deatails*/
+.details
+{
+	margin-top:-2px;
+	background-image:url('../images/kwallpaper-24.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:7in;
+	overflow:hidden;
+	font-family:"MS Serif", "New York", serif;
+	/*-webkit-filter: grayscale(0.5) brightness(0.45) contrast(1.05);*/
+}
+.details .table
+{
+	margin-left: 13%;
+	margin-top: 229px;
+  height: 180px;
+  width: 860px;
+  background-color: #F0F;
+	overflow:hidden;
+}
+.details .table .descrabtion
+{
+	height: 180px;
+    width: 860px;
+	background-color:#fff;
+	overflow:hidden;
+}
+	/*Start input section*/
+.details .table .dinput
+{
+	height:75px;
+	position: relative;
+}
+	/*Start in1*/
+.table .descrabtion .in1
+{
+	border: 1px solid #c6bdbd;
+  height: 37px;
+  width: 257px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.in1 img
+{
+	width: 30px;
+  height: 28px;
+  float: left;
+  margin-top: -33px;
+  margin-left: 6px;
+}
+	/*End in1*/
+	/*Start in2*/
+.table .descrabtion .in2
+{
+	border: 1px solid #c6bdbd;
+  height: 37px;
+  width: 257px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.in2 img
+{
+	width: 30px;
+  height: 28px;
+  float: left;
+  margin-top: -33px;
+  margin-left: 6px;
+}
+	/*End in2*/
+	/*Startt in3*/
+.table .descrabtion .in3
+{
+	border: 1px solid #c6bdbd;
+  height: 37px;
+  width: 257px;
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.in3 img
+{
+	width: 30px;
+  height: 28px;
+  float: left;
+  margin-top: -33px;
+  margin-left: 6px;
+}
+	/*End in3*/
+.table .descrabtion input
+{
+	margin-left: 50px;
+  height: 35px;
+  margin-top: 0px;
+  width: 207px;
+  border: none;
+}
+
+	/*END input Section*/
+	/*Start select section*/
+/* NOTE: I Made sel1&2&3 To Make Margin between them*/
+	/*start sel1*/
+.table .descrabtion .sel
+{
+	border: 1px solid #c6bdbd;
+  width: 190px;
+  height: 38px;
+  position: relative;
+  float: left;
+	margin-left: 20px;
+}
+.sel img
+{
+	width: 30px;
+	height: 25px;
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+	/*End sel1*/
+	/*Start sel2*/
+.table .descrabtion .sel2
+{
+	border: 1px solid #c6bdbd;
+  width: 190px;
+  height: 38px;
+  position: relative;
+  float: left;
+	margin-left: 9px;
+}
+.sel2 img
+{
+	width: 20px;
+	height: 18px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 13px;
+}
+	/*End sel2*/
+	/*Start sel3*/
+.table .descrabtion .sel3
+{
+	border: 1px solid #c6bdbd;
+  width: 190px;
+  height: 38px;
+  position: relative;
+  float: left;
+	margin-left: 9px;
+	margin-right:5px;
+}
+.sel3 img
+{
+	width: 35px;
+  height: 29px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+	/*End sel3*/
+.table .descrabtion select
+{
+	border:none;
+	color:#999;
+	width: 140px;
+	height: 38px;
+	margin-left: 50px;
+	position:absolute;
+}
+.table .descrabtion select>option
+{color:#000;}
+.table .descrabtion .x1
+{
+	margin-left: 50px;
+}
+	/*End select section*/
+.table .descrabtion button
+{
+	border-color:#ed5057;
+	padding:10px;
+	background-color:#ed5057;
+	color:#fff;
+	width: 198px;
+	text-transform: uppercase;
+}
+.table .descrabtion button:hover
+{
+	border:1px solid #ed5057;
+	background-color:#fff;
+	color:#ed5057;
+	border-radius:5px;
+	font-size:15px;
+}
+.table .descrabtion .detpar
+{
+	width:50%;
+	display:inline;
+	margin-top:5px;
+	margin-left:60px;
+}
+.table .descrabtion .detpar p
+{
+	color:#8f8e8c;
+	margin-top: 20px;
+    margin-left:  3%;
+}
+.table .descrabtion .detalrm
+{
+	width:50%;
+	text-transform:capitalize;
+	display:inline;
+	margin-left: 425px;
+}
+.table .descrabtion .detalrm a
+{
+	display:block;
+	margin-top: -33px;
+  margin-left: 745px;
+	text-decoration:none;
+	text-transform: capitalize;
+	color:red;
+	cursor:alias;
+}
+/*End deatails*/
+
+/*Start third Section*/
+.third
+{
+	height:250px;
+	background-color:#ed5057;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+	color:#FFF;
+}
+.third .help h1
+{
+	margin:0;
+	margin-left: 290px;
+  padding-top: 60px;
+	font-size:50px;
+	font-family:monospace;
+	text-transform:capitalize;
+}
+.third .help p
+{
+	margin-left:480px;
+}
+.third .help button
+{
+	background-color:#ed5057;
+	margin-left:480px;
+	color:rgb(255,255,255);
+	border:2px solid #fff;
+	border-bottom:1px solid #fff;
+	padding:10px 40px;
+}
+/*End third Section*/
+
+/*Start Forth Section*/
+.icons
+{
+	height:600px;
+	text-align:center;
+	/*background-color:#39F;*/
+}
+.icons .icon
+{
+	width:30.333333%;
+	height:450px;
+	float:left;
+	margin-top:150px;
+	overflow:hidden;
+}
+.icons .Icon/*I changed CLASS Name to make the MARGIN between DIVs*/
+{
+	width:30.333333%;
+	height:450px;
+	float:left;
+	overflow:hidden;
+	margin:150px 3%;
+}
+.icons .IcoN h2
+{
+	color:#ed5057;
+}
+.icons .pp
+{
+	color:rgb(201, 201, 196);
+}
+.icons .icon .IcoN
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	/*margin-left:40%;*/
+	margin-top: 15%;
+
+}
+.icons .Icon .IcoN/*I changed CLASS Name to make the MARGIN between DIVs*/
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	/*margin-left:40%;*/
+	margin-top: 15%;
+}
+.icons .icon .JQa,.JQb,.JQc
+{
+	color:#ed5057;
+	text-transform: uppercase;
+}
+.icons .icon .a,.c
+{
+	color:#ed5057;
+}
+.icons .Icon .b
+{
+	color:#ed5057;/*
+	color:#ed5057;*/
+}
+
+/*End Forth Section*/
+
+/*Start portfolio section*/
+
+	/**
+	START LEFT>>portfolio
+	**/
+.portfolio
+{
+	height:800px;
+	background-color:#f4f4f4;/*#f4f4f4*/
+}
+.portfolio .left
+{
+	height:529px;
+	width:63%;
+	float:left;
+	overflow:hidden;
+}
+.portfolio .left .L
+{
+	width:49%;
+	background-color:#fff;
+	float:left;
+	overflow:hidden;
+}
+.portfolio .left .L h2
+{
+	text-transform: uppercase;
+}
+.portfolio .left .L p
+{
+	color:#888;
+}
+.portfolio .left .LR
+{
+	width:50%;
+	background-color:#fff;
+	float:right;
+	overflow:hidden;
+}
+.portfolio .left .LR p
+{
+	color:#888;
+}
+.portfolio .left .L img
+{
+	width:368px;
+	height:235px;
+}
+.portfolio .left .LR img
+{
+	width:369px;
+	height:235px;
+}
+
+.portfolio .left .pL
+{
+	padding:15px;
+}
+.portfolio .left .pR
+{
+	padding:15px;
+}
+.portfolio .left .pR h2
+{
+	text-transform: uppercase;
+}
+.portfolio .L button
+{
+	padding:15px 35px;
+	width:361px;
+	color:#fff;
+	background-color:#ed5057;
+	border:none;
+	text-transform: uppercase;
+}
+.portfolio .LR button
+{
+	padding:15px 35px;
+	width:369px;
+	color:#fff;
+	background-color:#ed5057;
+	border:none;
+	text-transform: uppercase;
+}
+	/**
+	END Left >>portfolio
+	**/
+
+	/**
+	START RIGHT>>portfolio
+	**/
+.portfolio .right
+{
+	background-color:#ed5057;
+	height:90px;
+	width:35%;
+	float:right;
+}
+.right .paragraphR
+{
+	color:#fff;
+	margin-left: 25px;
+}
+.right .paragraphR h2
+{
+	margin-bottom:0;
+	text-transform: capitalize;
+}
+.right .paragraphR p
+{
+    margin-top: 10px;
+}
+.right .photoR
+{
+    height: 439px;
+    background-color: #fff;
+}
+.right .photoR  .photoa .RPha img/*A*/
+{
+	height:90px;
+	width:30%;
+	float:left;
+}
+.right .photoR  .photob .RPha img/*B*/
+{
+	height:90px;
+	width:30%;
+	float:left;
+}
+.right .photoR  .photoa .RPa p/*A*/
+{
+	text-align:center;
+	font-size:30px;
+	width:50%;
+	float:left;
+	text-transform: uppercase;
+}
+.right .photoR  .photob .RPa p/*B*/
+{
+	text-align:center;
+	font-size:30px;
+	width:50%;
+	float:left;
+	text-transform: uppercase;
+}
+.right .RIGHT
+{
+	margin: 12px 0 0 20px;
+	position: absolute;
+}
+.right .photoR  .photoa/*A*/
+{
+	 background-color: #f4f4f4;
+	 margin:10px 10px 0 10px;
+	 width: 350px;
+	 height: 90px;
+}
+
+.right .photoR  .photob/*B*/
+{
+	 background-color: #f4f4f4;
+	 margin:10px 10px 0 10px;
+	 width: 350px;
+	 height: 90px;
+}
+/*
+*NOTE
+*I CAN make it(DIV) A only OR B but to chang between color if you want
+*/
+
+	/**
+	END RIGHT>>portfolio
+	**/
+.point
+{
+	margin-top: -90px;
+}
+.point .point_location
+{
+	position:absolute;
+	margin-left:280px;
+}
+.point li
+{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin:10px;
+	background-color:#b7b3b0;
+	border-radius:50%;
+	color:#b7b3b0;
+	font-size:1px;
+}
+.point li:hover
+{
+	background-color:#000;
+}
+.point .point_location .point_active
+{
+	background-color:#000;
+}
+/*End portfolio section*/
+
+/*Start slider section*/
+
+.images
+{
+  width:100%;
+  height:auto;
+  margin:90px 0 0;
+  position:relative;
+}
+.images img
+{
+  width:100%;
+  height:409px;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+/*END slider section*/
+
+/*start Show section*/
+.show
+{
+	height: 1219px;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+	background-image:url('../images/10.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:bottom;/*can remove*/
+	margin-top: 499px;
+}
+
+	/*Start SHOW_HEAD*/
+
+.show .show_all .show_h
+{
+	margin-top: 360px;
+	float:left;
+	width:30%;
+}
+.show .show_all .show_h .head
+{
+	text-transform:uppercase;
+    font-size: 60px;
+	font-family:sans-serif;
+	color:#fff;
+	width:50%;
+}
+.show .show_all .show_h .head2
+{
+	text-transform:capitalize;
+	font-family:cursive;
+	color:#eb5255;
+	font-size:40px;
+}
+ .show .show_all .show_p_a,.show_p_b,.show_p_c
+ {
+	 color:rgb(201, 201, 196);
+ }
+.show .show_all .sh_a,.sh_b,.sh_c
+{
+	color:rgb(201, 201, 196);
+}
+	/*End  SHOW_HEAD*/
+
+	/*Start  SHOW_PHOTO*/
+.show .show_photo
+{
+	opacity:0.9;
+}
+.show .show_all .show_photo
+{
+	height:710px;
+	background-color:#fbfbfb;
+	width:70%;
+	margin-top:200px;
+	float:left;
+}
+.show .show_all .show_photo .pi1
+{
+	height:288px;
+	overflow:hidden;
+	opacity:1;
+}
+.show .show_all .show_photo .pi2/*2*/
+{
+	height:200px;
+	overflow:hidden;
+}
+.show .show_all .show_photo .pi1 .pictures img
+{
+	width:33%;
+	height:288px;
+	float:left;
+	overflow:hidden;
+	padding:20px;
+	opacity:1;
+}
+.show .show_all .show_photo .pi2 .pictures img/*2*/
+{
+	width:33%;
+	height:288px;
+	float:left;
+	overflow:hidden;
+	padding:20px;
+	opacity:0.9;
+}
+.show .show_all .show_photo .pi1 .pictures .special
+{
+	height:192px;
+}
+.show .show_all .show_photo .pi2 .pictures .special/*2*/
+{
+	height:192px;
+}
+.show .show_all .show_photo .pi1 .text
+{
+    width: 55%;
+    float: left;
+}
+.show .show_all .show_photo .pi1 .text .sha,.shb,.shc
+{
+	color:#eb5255;
+	text-transform: uppercase;
+}
+.show .show_all .show_photo .pi2 .text/*2*/
+{
+    width: 55%;
+    float: left;
+}
+	/*End SHOW_PHOTO*/
+
+/*end Show section*/
+
+/*Start The END section*/
+
+.end
+{
+	height:1000px;/*height(1000px) - margin(125px)= 975px height*/
+	margin-top:-125px;
+	background-image:url('../images/3d_cubes-HD.jpg');
+	background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	width:100%;
+	-webkit-clip-path: polygon(50% 12%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+	/*-webkit-filter: grayscale(0.5) brightness(0.45) contrast(1.05);
+*/}
+.end .map
+{
+	height:470px;
+	width:48%;
+	margin-top:200px;
+	margin-left: -20px;
+	float:left;
+}
+.end .comment
+{
+	height:550px;
+	width:370px;
+	margin-left: 255px;
+	margin-top: 200px;
+	background-color:#fff;
+	float:left;
+}
+.end .comment input
+{
+	padding: 10px;
+  margin: 15px;
+  width: 320px;
+	border:none;
+	background-color:#f4f4f4;
+}
+.end .comment textarea
+{
+	height:200px;
+	width: 326px;
+	margin:20px;
+	border:none;
+	background-color:#f4f4f4;
+}
+.end .comment button
+{
+  margin: 0px 0px 0px 20px;
+  padding: 10px;
+  width: 333px;
+	color:#fff;
+	background-color:#ed5057;
+	border:none;
+	text-transform: uppercase;
+}
+.end .comment a
+{
+	text-decoration:none;
+	color:#ed5057;
+	margin:20px 0 -15px 20px;
+  display: block;
+	text-transform: capitalize;
+	cursor: alias;
+}
+
+/*END The END section*/
+
+/*Start FOoTER Section*/
+
+.footer
+{
+	height:60px;
+	background-color:#1f3644;
+	margin-top:-17px;
+}
+.footer .paragraphfooter/*I just made it to put the paragraphs inside*/
+{
+	font-family:fantasy;
+}
+.footer .pfooter
+{
+	color:#fff;
+	text-align:center;
+  padding: 20px;
+  margin-left: -133px;
+}
+.footer .footerp
+{
+	color:#ed5057;
+	margin-top:-55px;
+  margin-left: 627px;
+}
+
+/*END Footer section*/
